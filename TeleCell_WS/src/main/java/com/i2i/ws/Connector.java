@@ -14,8 +14,8 @@ public class Connector {
 		try {
 			
 			DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
-			connectionDB = DriverManager.getConnection("jdbc:oracle:thin:@mesutaltan:1521:XE","SYSTEM","1234");
-			System.out.println("Baðlantý Baþarýlý...");
+			connectionDB = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","SYSTEM","1234");
+			System.out.println("BaÃ°lantÃ½ BaÃ¾arÃ½lÃ½...");
 		}
 		
 		catch (SQLException e) {
